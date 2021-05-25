@@ -1,0 +1,316 @@
+#main{
+
+    background-color:#6B5B95;
+    
+}
+
+#a{
+    background-color:lightpink;
+    text-align:center;
+    font-size: 60px;
+    padding-top: 60px;
+    
+    color:forestgreen;
+    margin-left: 35px;
+    margin-right:35px;
+    margin-bottom:65px;
+    
+    
+}
+#b{
+    width: 50% ;
+    height: 100px;
+    padding:30px;
+    margin-left: -65px;
+    
+}
+#b ul button{
+    
+    font-size:20px;
+    flex-direction: row;
+    background-color:#A0DAA9;
+    
+    
+    
+}
+nav{
+    width: 100% ;
+    height: 100%;
+    margin-left: 380px;
+  
+    display: flex;
+
+
+
+}
+#b ul button:hover{
+    color:red;
+    background-color: grey;
+}
+#d{
+    margin-left: 35px;
+    display: flex;
+
+}
+#e{
+    margin-left: 200px;
+    font-size:40px;
+    background-color: lightblue;
+    padding-top: 90px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 32px;
+    
+}
+#e input{
+    font-size: 30px;
+    border: solid;
+}
+#e button{
+    font-size: 30px;
+    
+}
+.ea{
+    text-align: center;
+    text-decoration: solid;
+    color: brown;
+    
+}
+#e button:hover{
+    color:red;
+    background-color:grey;
+}
+#f{
+
+    background-color:lightcyan;
+    font-size: 50px;
+    margin-top: 20px;
+    padding-left: 20px;
+
+    
+}
+#g{
+    display: flex;
+    background-color: darkturquoise;
+    margin-top: 50px;
+}
+
+#g button{
+    font-size: 30px;
+    background-color: rgb(64, 64, 247);
+    padding:10px;
+    
+    
+}
+#g button:hover{
+    color:white;
+    background-color:darkgoldenrod;
+}
+#i{
+    display: flex;
+    padding-left: 60px;
+}
+#k{
+    padding-left: 60px;
+    margin-top: 50px;
+    
+    font-size: 40px;
+}
+#h{
+    margin-top: 50px;
+    margin-left: 50px;
+}
+#h:hover{
+    background-color: deeppink;
+}
+#j{
+    display: flex;
+}
+#l{
+    color: forestgreen;
+    text-align: center;
+    font-size:50px;
+    border: solid;
+    background-color:lightpink;
+    
+
+
+}
+#m{
+    display: flex;
+    padding: 50px;
+}
+#n{
+    display: flex;
+    margin-left: 400px;
+    margin-top: 20px;
+    
+    
+
+}
+#o{
+    padding-left: 200px;
+    
+}
+#ln{
+    color: forestgreen;
+    text-align: center;
+    font-size:50px;
+    padding-top: 40px;
+    border: solid;
+    background-color:lightpink;
+
+    
+}
+#q{
+    background-color: lightskyblue;
+    display: flex;
+}
+#t{
+    font-size: 70px;
+    margin-right: 200px;
+    margin-left:30px;
+}
+#t button{
+    font-size: 25px;
+    background-color:rgb(59, 59, 250);
+}
+#t button:hover{
+    color:red;
+    background-color: grey;
+}
+#t input{
+    font-size:25px;
+    }
+#s{
+    margin-top:-34px;
+}
+#s img{
+    border-radius:20px;
+}
+#h img{
+    border-radius:20px;
+}
+#w{
+    margin-top:-34px;
+}
+#w img{
+    border-radius:20px;
+}
+#x{
+    margin-top:-27px;
+}
+#x img{
+    border-radius:20px;
+    
+}
+#container1{
+    
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin:auto;
+}
+#ourteam{
+    background:rgb(196, 188, 188);
+    text-align: center;
+    overflow:hidden;
+    position:relative;
+    padding:30px 0px  40px;
+    margin:0px 25px;
+    width:30%;
+    margin-top:-35px;
+   
+}
+  #pic img{
+    border-radius:50%;
+    transform:scale(1);
+    transition: all 0.9s ease 0s;
+}
+#pic{
+    width:100%;
+    height:auto;
+    border-radius:50%;
+    transform:scale(1);
+    transition: all 0.9s ease 0s;
+}
+#ourteam:hover #pic img{
+    box-shadow:0 0 0 14px #1785eb;
+    tranform:scale(0.7);
+}
+#ourteam #social{
+    width:100%;
+    padding:0;
+    margin:0;
+    background:#1785eb;
+    position:absolute;
+    bottom:-100px;
+    left:0;
+    transistion:all 0.5s ease 0s;
+
+}
+#ourteam:hover #social{
+    bottom:0;
+}
+#ourteam #social li{
+    display:inline-block;
+}
+#ourteam #social li a{
+    text-decoration: none;
+    display:block;
+    font-size:17px;
+    padding:10px;
+    transistion:all 0.3s ease 0s;
+}
+#title{
+    font-size: 40px;
+}
+.fa {
+    padding: 20px;
+    font-size: 60px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  /* Add a hover effect if you want */
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+  /* Set a specific color for each brand */
+  
+  /* Facebook */
+  .fa-facebook {
+    background: #987b3b;
+    color: white;
+  }
+  .fa-instagram {
+    background: #987b3b;
+    color: white;
+  }
+  .fa-linkedin {
+    background: #987b3b;
+    color: white;
+  }
+  #z{
+      font-size: 50px;
+      background-color: darkcyan;
+      padding-left: 50px;
+  }
+  #z input{
+      font-size:50px ;
+    padding:10px;
+    margin:10px;
+  }
+  #z button{
+    font-size:50px ;
+    margin-top: 17px;
+    background-color: rgb(11, 158, 184);
+
+}
+#z button:hover{
+    color:rgb(109, 109, 112);
+    background-color:deepskyblue;
+}
+  
